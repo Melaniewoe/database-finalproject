@@ -1,6 +1,7 @@
 # database-finalproject
 
 Design Document
+
 1.	Title
 Informations’ Database 
  
@@ -48,11 +49,13 @@ Ouput: string id, string first name, string middle name, string last name, strin
 
 My program’s result:
 The program compiles and runs fine although it has few warnings and it outputs all the choice menu. I think that the programs cannot insert the database.txt to file and that’s why I cannot decide if my other codes for sorting, deleting, and adding works or not. But I am pretty sure that my “adding record” code can work because I tried to add the names. 
+
 6.	Problem Solution Discussion
 The program uses vector to store the data for affiliates. 
 vector<ItemType> myvector;
 I chose to use vector because elements in the vector are guaranteed to be stored in contiguous storage locations in the same order as represented by the vector. And it is easier to be accessed.
- 	It will use Avltree.h and Avltree.cpp for basic data base creation. AVL tree is the basic data structure to store data.
+It will use Avltree.h and Avltree.cpp for basic data base creation. AVL tree is the basic data structure to store data.
+
 7.	Data Structures
 As in the project description, we need to use the AVL tree as our basic data structure for database. String will be the type of the records. 
  
